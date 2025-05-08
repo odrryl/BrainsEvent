@@ -39,6 +39,7 @@
 		</div>
 
 		<h1 class="hero-title" ref="floatingTitle">FULL-CYCLE<br />EVENT AGENCY</h1>
+		
 	</section>
 
 	<section class="showreel">

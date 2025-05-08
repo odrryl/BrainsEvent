@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../Home.vue'
+import Home from '../components/Home.vue'
 import Who from '../components/Who.vue'
 import What from '../components/What.vue'
 import Where from '../components/Where.vue'
@@ -12,8 +12,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
+  history: createWebHistory('/BrainsEvent/'), 
+  routes
 })
 
 export default router

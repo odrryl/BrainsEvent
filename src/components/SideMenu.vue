@@ -75,8 +75,10 @@ onMounted(() => {
 	window.addEventListener("resize", checkMobile);
 });
 
-const goTo = (path) => {
-	router.push(path);
+const goTo = async (path) => {
+	if (route.path !== path) {
+		await router.push(path);
+	}
 	closeMenu();
 };
 </script>
