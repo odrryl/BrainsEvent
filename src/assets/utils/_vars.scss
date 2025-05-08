@@ -1,0 +1,23 @@
+:root {
+	font-family: "Grtsk Giga", sans-serif;
+
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	
+	--bg-color: #bebebe;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+  --main: #373737;
+	--black: #000;
+	--yellow: #ffcb46;
+	--white: #fff;
+	--grey: #ffffff1f;
+  --transparent-bg: #00000081;
+	--box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+}
